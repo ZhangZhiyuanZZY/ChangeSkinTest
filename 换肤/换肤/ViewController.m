@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "ZYSkinTool.h"
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UISegmentedControl *segment;
+
 @property (weak, nonatomic) IBOutlet UIImageView *face;
 @property (weak, nonatomic) IBOutlet UIImageView *heart;
 @property (weak, nonatomic) IBOutlet UIImageView *rect;
@@ -19,14 +19,27 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+- (IBAction)skinSegment:(UISegmentedControl *)sender {
+    
+    [ZYSkinTool saveSkin:[sender titleForSegmentAtIndex:sender.selectedSegmentIndex]];
+    [self setSkin];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    //设置皮肤
+    [self setSkin];
+}
+
+- (void)setSkin
+{
+    self.face.image = [ZYSkinTool loadImage:@"face"];
+    self.heart.image = [ZYSkinTool loadImage:@"heart"];
+    self.rect.image = [ZYSkinTool loadImage:@"rect"];
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DDC4A71BEC2F9000EA8EAB /* ZYOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC4A61BEC2F9000EA8EAB /* ZYOneViewController.m */; };
+		18DDC4AA1BEC2FA700EA8EAB /* ZYTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDC4A91BEC2FA700EA8EAB /* ZYTwoViewController.m */; };
 		18E084711BEBB661001CDCF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E084701BEBB661001CDCF7 /* main.m */; };
 		18E084741BEBB661001CDCF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E084731BEBB661001CDCF7 /* AppDelegate.m */; };
 		18E084771BEBB661001CDCF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E084761BEBB661001CDCF7 /* ViewController.m */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DDC4A51BEC2F9000EA8EAB /* ZYOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYOneViewController.h; sourceTree = "<group>"; };
+		18DDC4A61BEC2F9000EA8EAB /* ZYOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYOneViewController.m; sourceTree = "<group>"; };
+		18DDC4A81BEC2FA700EA8EAB /* ZYTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTwoViewController.h; sourceTree = "<group>"; };
+		18DDC4A91BEC2FA700EA8EAB /* ZYTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTwoViewController.m; sourceTree = "<group>"; };
 		18E0846C1BEBB661001CDCF7 /* 换肤.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "换肤.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E084701BEBB661001CDCF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E084721BEBB661001CDCF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +76,10 @@
 				18E084761BEBB661001CDCF7 /* ViewController.m */,
 				18E0848A1BEBC01E001CDCF7 /* ZYSkinTool.h */,
 				18E0848B1BEBC01E001CDCF7 /* ZYSkinTool.m */,
+				18DDC4A51BEC2F9000EA8EAB /* ZYOneViewController.h */,
+				18DDC4A61BEC2F9000EA8EAB /* ZYOneViewController.m */,
+				18DDC4A81BEC2FA700EA8EAB /* ZYTwoViewController.h */,
+				18DDC4A91BEC2FA700EA8EAB /* ZYTwoViewController.m */,
 				18E084781BEBB661001CDCF7 /* Main.storyboard */,
 				18E0847B1BEBB661001CDCF7 /* Assets.xcassets */,
 				18E0847D1BEBB661001CDCF7 /* LaunchScreen.storyboard */,
@@ -160,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DDC4AA1BEC2FA700EA8EAB /* ZYTwoViewController.m in Sources */,
 				18E084771BEBB661001CDCF7 /* ViewController.m in Sources */,
 				18E0848C1BEBC01E001CDCF7 /* ZYSkinTool.m in Sources */,
 				18E084741BEBB661001CDCF7 /* AppDelegate.m in Sources */,
+				18DDC4A71BEC2F9000EA8EAB /* ZYOneViewController.m in Sources */,
 				18E084711BEBB661001CDCF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +322,7 @@
 				18E084851BEBB661001CDCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
